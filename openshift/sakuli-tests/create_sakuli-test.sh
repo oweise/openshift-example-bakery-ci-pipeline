@@ -24,7 +24,7 @@ if [ -z $IMAGE_REG ]; then
     IMAGE_REG="172.30.1.1:5000"
 fi
 if [ -z $NEXUS_HOST ]; then
-    NEXUS_HOST="nexus-nexus.paas.osp.consol.de"
+    NEXUS_HOST="nexus-nexus.apps.192.168.42.1.nip.io"
 fi
 if [ -z $IMAGE_PREFIX ]; then
     IMAGE_PREFIX="${IMAGE_REG}/oshift-day-${STAGE}"

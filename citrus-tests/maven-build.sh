@@ -14,5 +14,4 @@ if [ -z $NEXUS_HOST ] ;then
 fi
 echo "............. NEXUS_HOST=$NEXUS_HOST"
 
-echo "mvn -s $FOLDER/../openshift/infrastructur/maven-cd-settings.xml -f $FOLDER/pom.xml -Dos.cluster.postfix=-oshift-day-qa.paas.osp.consol.de verify"
-mvn -s $FOLDER/../openshift/infrastructur/maven-cd-settings.xml -f $FOLDER/pom.xml -Dos.cluster.postfix=-oshift-day-qa.paas.osp.consol.de verify
+mvn -s $FOLDER/../openshift/infrastructur/maven-cd-settings.xml -f $FOLDER/pom.xml -Dos.cluster.postfix=-oshift-day-qa.apps.192.168.42.1.nip.io verify
