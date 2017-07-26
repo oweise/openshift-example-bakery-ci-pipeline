@@ -27,7 +27,7 @@ if [ -z $NEXUS_HOST ]; then
     NEXUS_HOST="nexus-nexus.paas.osp.consol.de"
 fi
 if [ -z $IMAGE_PREFIX ]; then
-    IMAGE_PREFIX="${IMAGE_REG}/openshift-day-${STAGE}"
+    IMAGE_PREFIX="${IMAGE_REG}/oshift-day-${STAGE}"
 fi
 if [ -z $BAKERY_BAKERY_URL ]; then
     BAKERY_BAKERY_URL="http://bakery-web-server/bakery/"

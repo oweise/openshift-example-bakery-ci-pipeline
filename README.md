@@ -1,6 +1,6 @@
 # Automated CI/CD Build Pipeline with Jenkis in OpenShift
 
-The GitHub repository [toschneck/openshift-example-bakery-ci-pipeline](https://github.com/toschneck/openshift-example-bakery-ci-pipeline) contains, the sourcecode for the examples of the talk **[Continuous Testing: Integration- und UI-Testing mit OpenShift-Build-Pipelines](https://www.slideshare.net/TobiasSchneck/continuous-testing-integration-und-uitesting-mit-openshiftbuildpipelines)** at the Redhat/ConSol OpenShift-Day:
+The GitHub repository [toschneck/openshift-example-bakery-ci-pipeline](https://github.com/toschneck/openshift-example-bakery-ci-pipeline) contains, the sourcecode for the examples of the talk **[Continuous Testing: Integration- und UI-Testing mit OpenShift-Build-Pipelines](https://www.slideshare.net/TobiasSchneck/continuous-testing-integration-und-uitesting-mit-openshiftbuildpipelines)** at the Redhat/ConSol oshift-day:
 
 [![Continuous Testing](.markdownpics/slide_first_page_1.png)](https://www.slideshare.net/TobiasSchneck/continuous-testing-integration-und-uitesting-mit-openshiftbuildpipelines)
 
@@ -86,7 +86,7 @@ As long as OpenShift can only use ImageStream names in DeploymentConfigs and not
 
 Now execute the script [`openshift/create-openshift-pipeline-infrastructur.sh`](openshift/create-openshift-pipeline-infrastructur.sh) and the following openshift objects will created:
 
-* One project for each stage: `openshift-day-dev`, `openshift-day-qa`, `openshift-day-prod`
+* One project for each stage: `oshift-day-dev`, `oshift-day-qa`, `oshift-day-prod`
 * Service-Accounts `cd-agent`, `jenkins` to be able to trigger deployments in all stages 
 * Jenkins Server 
 
