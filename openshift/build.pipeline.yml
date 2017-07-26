@@ -10,7 +10,7 @@ parameters:
     required: true
   - name: GIT_URL
     required: true
-    value: 'https://github.com/toschneck/openshift-example-bakery-ci-pipeline'
+    value: 'https://github.com/oweise/openshift-example-bakery-ci-pipeline'
   - name: GIT_BRANCH
     required: true
     value: 'master'

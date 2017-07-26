@@ -42,7 +42,7 @@ objects:
       - name: CITRUS_ADMIN_ROOT_DIRECTORY
         value: '/maven'
       - name: CITRUS_ADMIN_PROJECT_REPOSITORY
-        value: 'https://github.com/toschneck/sakuli-example-bakery-testing'
+        value: 'https://github.com/oweise/sakuli-example-bakery-testing'
       - name: CITRUS_ADMIN_PROJECT_REPOSITORY_MODULE
         value: 'citrus-tests'
       ### checks if http-vnc connection is working
